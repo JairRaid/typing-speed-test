@@ -39,7 +39,7 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://github.com/JairRaid/typing-speed-test
 - Live Site URL:
 
 ## My process
