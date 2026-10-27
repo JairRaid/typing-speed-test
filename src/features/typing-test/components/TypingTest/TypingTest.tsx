@@ -177,7 +177,6 @@ const TypingTest = () => {
             userInput={userInput}
             onInputChange={handleInputChange}
             onStart={handleStart}
-            onRestart={restart}
             status={status}
           />
         </section>
