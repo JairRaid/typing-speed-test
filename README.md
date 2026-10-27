@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Typing speed test
 
-## Getting Started
+This is a solution to the [Typing speed test](https://www.frontendmentor.io/challenges/typing-speed-test). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Your users should be able to:
 
-## Learn More
+- Start a test by clicking the start button or by clicking the passage and typing
+- Select a difficulty level (Easy, Medium, Hard) for passages of varying complexity
+- Switch between "Timed (60s)" mode and "Passage" mode (timer counts up, no limit)
+- Restart at any time to get a new random passage from the selected difficulty
+- See real-time WPM, accuracy, and time stats while typing
+- See visual feedback showing correct characters (green), errors (red/underlined), and cursor position
+- Correct mistakes with backspace (original errors still count against accuracy)
+- View results showing WPM, accuracy, and characters (correct/incorrect) after completing a test
+- See a "Baseline Established!" message on their first test, setting their personal best
+- See a "High Score Smashed!" celebration with confetti when beating their personal best
+- Have their personal best persist across sessions via localStorage
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for all interactive elements
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](./screenshot.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- Solution URL:
+- Live Site URL:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Built with
+
+- Semantic HTML5 markup
+- React
+- Next js
+- Typescript
+- Tailwind
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+I learned to:
+
+- Build an application with Next.js and understand its project structure and file-based routing.
+- Create reusable React components and use hooks to manage state and user interactions.
+- Use TypeScript to define types for data, props, and state.
+- Create responsive layouts and interactive states with Tailwind CSS.
+- Track typing input and calculate WPM, accuracy, and results in real time.
+- Persist a personal best between visits using `localStorage`.
+
+## Author
+
+- Email: rakotonirainyriija@gmail.com
+- Facebook: https://web.facebook.com/jair.rakoto.3/
